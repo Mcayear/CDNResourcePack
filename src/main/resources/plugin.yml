@@ -1,0 +1,20 @@
+#name, main, version and api are required
+name: CDNResourcePack
+main: cn.vusv.cdnresourcepack.CDNResourcePack
+#remember version and api is string, don't write it like this: 1.0.0, or there will be an exception
+version: "1.0.0"
+api: ["1.0.0"]
+load: POSTWORLD
+author: Mcayear
+# Authors and author will be added together in one list.
+authors: ["Mcayear"]
+description: 用于PNX核心加载CDN中的资源包
+website: https://github.com/Mcayear/CDNResourcePack
+# These dependencies are required for the plugin to start.
+#depend: ["OtherPlugin", "ThisPlugin"]
+# These dependencies are not required.
+softdepend: []
+# Log prefix in console
+prefix: "CDNResourcePack"
+# Plugin will be loaded before these. Any cyclic loadbefore's or dependencies's will throw errors!
+loadbefore: []
